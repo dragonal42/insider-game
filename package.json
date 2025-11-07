@@ -1,15 +1,18 @@
 {
-  "name": "concept-boardgame",
-  "version": "0.1.0",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "ejs": "1.x",
-    "ent": "2.x",
-    "express": "4.x",
-    "express-ejs-layouts": "^2.5.0",
-    "express-session": "^1.17.1",
-    "socket.io": "1.x"
+  "name": "insider-game",
+  "version": "1.0.0",
+  "description": "Online Insider party game powered by Node.js, Express and Socket.IO",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
   },
-  "author": "emmanuel.detaillac@gmail.com&gt;",
-  "description": "Simple Insider game to remote playing"
+  "author": "emmanuel.detaillac@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "ejs": "^3.1.10",
+    "socket.io": "^4.7.5"
+  }
 }
